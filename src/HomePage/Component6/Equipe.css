@@ -1,0 +1,155 @@
+.Equipe {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  position: relative;
+  top: 3.5rem;
+}
+
+.header2 {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.comps {
+  display: flex;
+  gap: 1rem;
+}
+.Digital {
+  display: flex;
+  justify-content: center;
+  color: #625dbf;
+  font-family: "Neue Machina Ultrabold";
+  src: url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.eot");
+  src: url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.svg#Neue Machina Ultrabold")
+      format("svg");
+}
+.textes {
+  color: rgb(46, 30, 30);
+  font-size: 25px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.texts {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #625dbf;
+  font-family: "Neue Machina Ultrabold";
+  src: url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.eot");
+  src: url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.svg#Neue Machina Ultrabold")
+      format("svg");
+}
+
+.Style {
+}
+
+.données {
+  display: flex;
+  gap: -1rem;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  justify-content: center;
+  top: -4.5rem;
+  bottom: 2rem;
+}
+.donnée {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  /*background-color: rgb(228, 216, 216);*/
+
+  padding: 1rem 1rem 2rem 2rem;
+  width: 15rem;
+  height: 22rem;
+  color: black;
+  justify-content: center;
+  /*box-shadow: -5px 5px 20px 5px grey;*/
+}
+
+.plusinfos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  color: blue;
+} /*
+.donnée:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+  transform: translate(0px, -20px);
+  opacity: 0.7;
+  border-radius: 25px;
+}*/
+.Engage2 {
+  width: 16rem;
+  height: 10rem;
+  position: relative;
+  right: 1rem;
+  top: 1rem;
+}
+.Engage3 {
+  width: 20rem;
+  height: 12rem;
+  position: relative;
+  right: 1rem;
+  top: 1rem;
+}
+
+.galerie {
+  /* background-color: rgb(114, 102, 102);*/
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 1rem;
+  position: relative;
+  right: 0.5rem;
+  top: -3.5rem;
+}
+.galerie > :nth-child(1) {
+  font-family: "Uchen", sans-serif;
+  font-size: 1.1rem;
+  color: #19191a;
+}
+.galerie > :nth-child(2) {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.galerie > :nth-child(3) {
+  font-size: 0.7rem;
+  line-height: 22px;
+  text-indent: 5px;
+}

@@ -10,3 +10,12 @@
   width: 100%;
   z-index: 5;
 }
+.activess {
+  background: rgb(22, 22, 25);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 22, 25, 1) 0%,
+    rgba(9, 9, 121, 1) 62%,
+    #19191a 100%
+  );
+}

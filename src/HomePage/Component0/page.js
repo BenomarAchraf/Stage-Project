@@ -70,7 +70,6 @@ const Home = () => {
             <button className="btn btn--outline btn--large">GET STARTED</button>
           </Link>
         </div>
-        <img className="logo1" src={anime4} alt="logo1" />
       </div>
       <div className="blank">
         <div className="right-r-h">

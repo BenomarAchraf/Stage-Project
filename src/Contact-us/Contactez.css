@@ -1,0 +1,111 @@
+.Cont {
+  position: relative;
+  top: -28rem;
+  left: 19rem;
+  height: 15rem;
+  margin: auto;
+  width: 44%;
+}
+
+.right-r-c {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.right-r-c > span {
+  font-weight: bold;
+
+  font-size: 1.8rem;
+}
+.Khat {
+  position: relative;
+  top: -0.5rem;
+  height: 0.2rem;
+  width: 3.6rem;
+  background-color: blue;
+}
+
+.right-r-c > div {
+  font-weight: bold;
+  font-size: 2.7rem;
+  color: rgb(0, 0, 0);
+}
+.details-r-c {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.partners-c {
+  display: flex;
+  gap: 1rem;
+}
+.partners-c > :nth-child(1) {
+  width: 2.5rem;
+  fill: grey;
+}
+.partners-c > :nth-child(2) {
+  width: 2.5rem;
+  fill: grey;
+}
+
+.stroke-c {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.partners-c > :nth-child(3) {
+  width: 2.5rem;
+  fill: grey;
+}
+
+.details-r-c > div {
+  display: flex;
+  gap: 3rem;
+  font-size: 1rem;
+  position: relative;
+  left: 2rem;
+}
+
+.details-r-c > div > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  color: gray;
+  position: relative;
+  top: 0.5rem;
+}
+.details-r-c > div > :nth-child(2) {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  /*align-items: flex-start;
+  display: flex;
+  width: 80%;
+  */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Infoo {
+  color: rgb(2, 2, 2);
+  font-size: 20px;
+  outline: none;
+  position: relative;
+  top: 0.2rem;
+  align-items: flex-start;
+  display: flex;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: #000;
+}
+
+p {
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  width: 90%;
+  font-family: "Uchen", sans-serif;
+}

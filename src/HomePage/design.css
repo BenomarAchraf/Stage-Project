@@ -17,8 +17,21 @@
   box-shadow: -5px 5px 20px 5px rgb(231, 231, 231);
   background-color: rgb(247, 247, 247);
 }
+
+.Component6 {
+  position: relative;
+  top: 10rem;
+  width: 98%;
+  margin: auto;
+  height: 38rem;
+  box-shadow: -5px 5px 20px 5px rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
+}
+
 .d {
   height: 50rem;
+  position: relative;
+  top: 5rem;
 }
 
 .Component5 {
@@ -30,6 +43,10 @@
   height: 32rem;
   box-shadow: -5px 5px 20px 5px rgb(231, 231, 231);
   background-color: rgb(255, 255, 255);
+}
+
+.Component7 {
+  height: 90rem;
 }
 
 .flex {

@@ -1,0 +1,91 @@
+.Services {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0 2rem;
+}
+.pos {
+  position: relative;
+  top: 8rem;
+  height: 80rem;
+}
+.Header3 {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.Start {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  width: auto;
+  justify-content: center;
+}
+
+.btn11 {
+  margin: 6px;
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(39, 60, 180);
+  padding: 8px 20px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+  position: relative;
+  top: 0.5rem;
+}
+.btn11:hover {
+  transition: all 0.3s ease-out;
+  background: rgb(39, 60, 180);
+  color: #242424;
+  transition: 250ms;
+}
+
+.Items {
+  display: flex;
+  gap: 1rem;
+}
+.Item {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  gap: 1rem;
+  padding: 2rem;
+  color: black;
+  justify-content: space-between;
+}
+.Item > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: blue;
+}
+.Item > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Item > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.plusinfos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  color: blue;
+}
+.Item:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}

@@ -30,18 +30,16 @@ const Footer = () => (
         <div className="gpt3__footer-links_logo">
           <img src={Logo} alt="logo" />
         </div>
-        <div className="gpt3__footer-links_div">
+        <div className="gpt3__footer-links_div1">
           <h4>Links</h4>
           <p>Services</p>
           <p>Project</p>
           <p>Tarifs</p>
-          <p>Contact-Us</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>SmartSnakeTechnologie</h4>
-          <p>Equipe</p>
-          <p>Client</p>
-          <p>Engagement</p>
+          <p>About-Us</p>
+          <p>Contact-Us</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Nous suivre</h4>

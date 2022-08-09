@@ -3,7 +3,9 @@ import "./design.css";
 import { data } from "./data";
 import Cards from "./Component1/Cards";
 import Page from "./Component0/page";
+import Equipe from "./Component6/Equipe";
 import Engagement from "./Component3/Engagement";
+import Projet from "./Component7/Projet ";
 import { BsFillArrowRightCircleFill as Sahm } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import pc from "../Assets/Images/PC1.svg";
@@ -13,6 +15,7 @@ import {
   BsTwitter as Twitter,
   BsLinkedin as Linkedin,
 } from "react-icons/bs";
+import Join from "./Join/Join";
 import Objectif from "../HomePage/Component2/Objectif";
 import Client from "./Component4/Client";
 import Reasons from "./Component5/Reasons";
@@ -32,13 +35,6 @@ const Home = () => {
       <div>
         <Page />
       </div>
-      <Ai className="icon1" />
-
-      <Instagram className="icon2" />
-
-      <Twitter className="icon3" />
-
-      <Linkedin className="icon4" />
       <div>
         <Link to="/About-us" className="flex">
           <Sahm /> <br /> <br /> <br /> Plus d'infos
@@ -54,7 +50,13 @@ const Home = () => {
         <Client />
       </div>
       <div className="Component0">
-        <Cards />
+        <Join />
+      </div>
+      <div className="Component6">
+        <Equipe />
+      </div>
+      <div className="Component7">
+        <Projet />
       </div>
       <div className="d">
         <div className="Component5">

@@ -10,10 +10,12 @@ import {
 } from "./NavbarComponents";
 
 import logo from "../Assets/Images/icon.svg";
+import logo1 from "../Assets/Images/LOGO1.svg";
 import "./Navbar.css";
 
 const NavbarComponent = () => {
   const [click, setClick] = useState(false);
+  const [nav, setNav] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -24,17 +26,25 @@ const NavbarComponent = () => {
     }
   };
 
+  const showNavbar = () => {
+    if (window.scrollY > 80) {
+      setNav(true);
+    } else {
+      setNav(false);
+    }
+  };
+
   useEffect(() => {
     showsidebar();
   }, []);
 
   window.addEventListener("resize", showsidebar);
-
+  window.addEventListener("scroll", showNavbar);
   return (
     <div className="nav">
-      <Nav>
+      <Nav className={nav && "activess"}>
         <NavLink to="/">
-          <img className="img" src={logo} alt="logo" />
+          <img className="img" src={nav ? logo : logo1} alt="logo" />
         </NavLink>
         <Bars onClick={handleClick} />
         <NavMenu>
