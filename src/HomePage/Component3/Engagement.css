@@ -1,0 +1,100 @@
+.Engagement {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.Header2 {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.Comps {
+  display: flex;
+  gap: 1rem;
+}
+.Textes {
+  margin-top: 10px;
+  color: rgb(46, 30, 30);
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Texts {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #625dbf;
+  font-family: "Neue Machina Ultrabold";
+  src: url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.eot");
+  src: url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1d7e20364d1ec722b206ea329d44fbbd.svg#Neue Machina Ultrabold")
+      format("svg");
+}
+.DATAS {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  justify-content: space-around;
+  top: 2rem;
+  bottom: 2rem;
+}
+.DATA {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 216, 216);
+  gap: 1rem;
+  padding: 1rem 1rem 2rem 2rem;
+  width: 18rem;
+
+  color: black;
+  justify-content: center;
+  box-shadow: -5px 5px 20px 5px grey;
+}
+
+.DATA > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.DATA > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+  text-indent: 5px;
+}
+
+.plusinfos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  color: blue;
+}
+.DATA:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+  transform: translate(0px, -20px);
+  opacity: 0.7;
+  border-radius: 25px;
+}
+
+.Engage1 {
+  margin: auto;
+  width: 18rem;
+  height: 13rem;
+}

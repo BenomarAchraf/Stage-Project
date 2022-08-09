@@ -1,0 +1,55 @@
+.Cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.Header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.Categories {
+  display: flex;
+  gap: 1rem;
+}
+.Categorie {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  gap: 1rem;
+  padding: 2rem;
+  color: black;
+  justify-content: space-between;
+}
+.Categorie > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: blue;
+}
+.Categorie > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Categorie > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.plusinfos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  color: blue;
+}
+.Categorie:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.Component0 {
+  position: relative;
+  top: 6rem;
+  bottom: 2rem;
+  height: 30rem;
+}
+.Component3 {
+  position: relative;
+  top: -9rem;
+  align-items: center;
+  margin: auto;
+}
+.Component4 {
+  width: 98%;
+  margin: auto;
+  height: 33rem;
+  box-shadow: -5px 5px 20px 5px rgb(231, 231, 231);
+  background-color: rgb(247, 247, 247);
+}
+.d {
+  height: 50rem;
+}
+
+.Component5 {
+  width: 98%;
+  position: relative;
+  top: 9rem;
+  margin: auto;
+
+  height: 32rem;
+  box-shadow: -5px 5px 20px 5px rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
+}
+
+.flex {
+  position: relative;
+  top: -3rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  font-family: "Lovelo", sans-serif;
+  font-size: 20px;
+  height: 100%;
+  cursor: pointer;
+}
+.flex:hover {
+  font-size: 22px;
+  color: rgb(0, 4, 255);
+
+  transition: all 0.3s ease-out;
+}
+
+.icon1 {
+  position: absolute;
+  top: 41.55rem;
+  width: 2.7rem;
+  cursor: pointer;
+  height: 2.7rem;
+  fill: #fff;
+  right: 55rem;
+}
+.icon1:hover {
+  fill: rgb(109, 109, 253);
+}
+.icon2 {
+  position: absolute;
+  top: 41.55rem;
+  width: 2.4rem;
+  cursor: pointer;
+  height: 2.4rem;
+  fill: #fff;
+  right: 26.3rem;
+}
+.icon2:hover {
+  fill: rgb(109, 109, 253);
+}
+.icon3 {
+  position: absolute;
+  top: 41rem;
+  width: 2.5rem;
+  cursor: pointer;
+  height: 2.5rem;
+  fill: #fff;
+  right: 20rem;
+}
+.icon3:hover {
+  fill: rgb(109, 109, 253);
+}
+.icon4 {
+  position: absolute;
+  top: 41.2rem;
+  width: 2.2rem;
+  cursor: pointer;
+  height: 2.2rem;
+  fill: #fff;
+  right: 61.5rem;
+}
+.icon4:hover {
+  fill: rgb(109, 109, 253);
+}

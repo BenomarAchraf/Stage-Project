@@ -1,0 +1,12 @@
+.img {
+  height: 250%;
+  width: auto;
+  position: relative;
+  top: -0.2rem;
+  left: -1.9rem;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
