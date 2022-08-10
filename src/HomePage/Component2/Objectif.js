@@ -7,11 +7,9 @@ const Objectif = () => {
   return (
     <div className="Objectif">
       <div className="Header1">
-        <img className="image111" src={image} alt="image" />
         <span>
           <span className="stroke">Notre</span> Objectif
         </span>
-        <img className="image222" src={image1} alt="image" />
       </div>
       <div className="Components">
         <span className="images">

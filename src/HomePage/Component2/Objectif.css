@@ -11,7 +11,7 @@
   gap: 5rem;
   font-weight: bold;
   font-size: 3rem;
-  justify-content: space-between;
+  justify-content: center;
   color: black;
   text-transform: uppercase;
   font-style: italic;
@@ -20,6 +20,8 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  position: relative;
+  top: 12rem;
 }
 .Texte {
   width: 50%;

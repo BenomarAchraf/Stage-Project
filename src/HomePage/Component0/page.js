@@ -31,13 +31,15 @@ const Home = () => {
   });*/
 
   return (
-    <div>
+    <div className="">
+      <div className="amine"></div>
       <div className="Affiche">
         <div className={back.class}>
           <h1>DIGITAL </h1>
           <h1> SOLUTIONS</h1>
           <p>{back.text}</p>
         </div>
+
         <img
           className="image"
           src={anime}

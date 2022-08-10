@@ -1,7 +1,4 @@
 .Affiche {
-  background: url("../../Assets/Images/bg.svg") center center/cover no-repeat;
-
-  background-color: #19191a;
   width: 100%;
   height: 87vh;
 
@@ -14,6 +11,19 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
+
+.amine {
+  background: url("../../Assets/Images/bg.svg") center center/cover no-repeat;
+
+  background-color: #19191a;
+  width: 100%;
+  height: 101vh;
+
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+}
+
 .strokes {
   color: transparent;
   font-family: Arial, Helvetica, sans-serif;
@@ -94,7 +104,7 @@
   position: absolute;
   right: 3rem; /*-18*/
   top: 2rem;
-  z-index: 0;
+  z-index: 2;
 }
 .image1 {
   width: 20rem;
@@ -102,7 +112,7 @@
   position: absolute;
   right: 65rem; /*-27*/
   top: 13.2rem;
-  z-index: 0;
+  z-index: 2;
 }
 .image2 {
   width: 15rem;
@@ -110,16 +120,16 @@
   position: absolute;
   right: 4rem;
   top: 19rem;
-  z-index: 2;
+  z-index: 3;
 }
 .image3 {
   width: 118rem;
-  height: 34rem;
+  height: 39.5rem;
   position: absolute;
   left: -35rem;
 
-  top: 0rem;
-  z-index: 0;
+  top: -4.5rem;
+  z-index: 2;
 }
 
 .class1 > h1 {
@@ -148,6 +158,7 @@
   margin-top: 32px;
   position: relative;
   top: 2.5rem;
+  z-index: 2;
 }
 
 .btn1 {
