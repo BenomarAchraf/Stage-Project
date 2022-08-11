@@ -1,0 +1,54 @@
+.Tarifs {
+  position: relative;
+  top: 8rem;
+  height: 120rem;
+  display: flex;
+  gap: 3rem;
+
+  justify-content: center;
+}
+
+.aze {
+  position: relative;
+  top: 15rem;
+  height: 70rem;
+  width: 90%;
+  margin: auto;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.Image {
+  height: 30rem;
+  width: 30rem;
+  margin: auto;
+}
+.azin {
+}
+
+.tailleSlider {
+  height: 30rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  color: black;
+}
+
+.First {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.Vitrine {
+  width: 30%;
+  margin: auto;
+}

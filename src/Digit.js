@@ -8,6 +8,7 @@ import Contact from "./Contact-us/Contact";
 import Join from "./HomePage/Join/Join";
 import { About } from "./About-us/About";
 import { Pres } from "./ComponentsAlpha/Pres";
+import Tarifs from "./Tarifs/Tarifs";
 const Digit = () => {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const Digit = () => {
         <Route exact path="/Services" element={<Servises />}></Route>
         <Route exact path="/Contact-us" element={<Contact />}></Route>
         <Route exact path="/About-us" element={<About />}></Route>
+        <Route exact path="/Tarifs" element={<Tarifs />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
