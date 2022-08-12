@@ -3,9 +3,21 @@ import Alpha from "../Assets/Images/Alpha.svg";
 import "./Pres.css";
 import "@fontsource/poppins";
 import { Link } from "react-router-dom";
-export const Pres = () => {
+export const Pres = (dataa) => {
+  const { img, header, texte } = dataa;
   return (
     <div className="Pres">
+      {img}
+      <p className="h30">Smart-Snake Technology</p>
+      <p className="h31">{header}</p>
+      <p className="h32">{texte}</p>
+      <Link to="/Projet" className="Click">
+        Join us now
+      </Link>
+    </div>
+  );
+};
+/*<div className="Pres">
       <img className="Alpha" src={Alpha} alt="Alpha" />
       <span className="h30">Smart-Snake Technology</span>
       <p className="h31">Manage HR To Work Efficiently </p>
@@ -16,6 +28,4 @@ export const Pres = () => {
       <Link to="/Projet" className="Click">
         Join us now
       </Link>
-    </div>
-  );
-};
+    </div> */

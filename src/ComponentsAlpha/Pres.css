@@ -21,7 +21,7 @@
 
 .h30 {
   position: absolute;
-  top: 6.3rem;
+  top: 4.9rem;
   z-index: 1;
   left: 9rem;
   font-weight: bold;
@@ -79,4 +79,33 @@
 
   width: 12rem;
   font-family: "Poppins";
+}
+
+@media screen and (max-width: 1122px) {
+  .h30 {
+    position: relative;
+    left: 1.9rem;
+    font-size: 20px;
+    width: 10rem;
+    top: 7rem;
+  }
+  .h31 {
+    position: relative;
+    left: 3rem;
+    font-size: 50px;
+    width: 30rem;
+    top: 6.5rem;
+  }
+  .h32 {
+    position: relative;
+    font-size: 16px;
+    left: -0.5rem;
+    top: 6.5rem;
+    width: 25rem;
+    margin: auto;
+    text-align: center;
+  }
+  .Alpha {
+    display: none;
+  }
 }

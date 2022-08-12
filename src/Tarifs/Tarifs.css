@@ -10,28 +10,65 @@
 
 .aze {
   position: relative;
-  top: 15rem;
-  height: 70rem;
-  width: 90%;
-  margin: auto;
-
+  top: 9rem;
+  height: 40rem;
+  width: 70%;
+  left: 25.3rem;
   justify-content: center;
   text-align: center;
 }
 
+.aze1 {
+  position: relative;
+  top: 14rem;
+  height: 60rem;
+  width: 70%;
+  left: -3rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.r-icon {
+}
+
 .Image {
-  height: 30rem;
-  width: 30rem;
+  height: 33rem;
+  width: 33rem;
+
   margin: auto;
+  box-shadow: -5px 5px 20px 5px rgb(82, 82, 82);
 }
 .azin {
+  width: 70%;
+  margin: auto;
 }
 
 .tailleSlider {
-  height: 30rem;
-  width: 30rem;
+  height: 34rem;
+  width: 34rem;
+  padding: 10px;
   display: flex;
   justify-content: center;
+}
+
+.Packs {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.stroke11 {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000;
 }
 
 .color {
@@ -49,6 +86,244 @@
   font-style: italic;
 }
 .Vitrine {
-  width: 30%;
+  font-size: 3rem;
+  color: rgb(72, 72, 177);
   margin: auto;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.Vitrine2 {
+  font-size: 2.6rem;
+  color: rgb(72, 72, 177);
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.Vitrine1 {
+}
+
+.Ou {
+  position: absolute;
+  left: 4.5rem;
+  top: 58rem;
+  gap: 4rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin: auto;
+  align-items: center;
+}
+
+.Ou1 {
+  position: absolute;
+  left: 55.5rem;
+  top: 103.5rem;
+  gap: 4rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin: auto;
+  align-items: center;
+}
+
+.Catg {
+  position: relative;
+  top: 1rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+.Catg2 {
+  position: relative;
+  top: 1rem;
+  left: 2.5rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+.Catg1 {
+  display: flex;
+
+  gap: 2rem;
+}
+
+.T-cus {
+  background-color: rgba(9, 9, 121, 1);
+  position: relative;
+  left: -2rem;
+  width: 102.4%;
+  height: 9rem;
+}
+
+.T-cus1 {
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  left: 2.6rem;
+  font-size: 19px;
+  width: 70rem;
+  font-family: "Poppins";
+}
+
+.T-cus2 {
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  top: -1.5rem;
+  font-size: 19px;
+  width: 80rem;
+  font-family: "Poppins";
+}
+.T-cus3 {
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #cacaca;
+  position: relative;
+  top: -4rem;
+  left: 34rem;
+  font-size: 21px;
+  width: 13.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.T-taille {
+  width: 4rem;
+  height: 2rem;
+  position: relative;
+  left: 0rem;
+}
+.T-taille:hover {
+  transform: translateX(20px);
+}
+@media screen and (max-width: 1122px) {
+  .Ou {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    left: -1rem;
+  }
+
+  .aze {
+    position: relative;
+    top: 37rem;
+    left: -1.2rem;
+    width: 32rem;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+
+  .aze1 {
+    position: relative;
+    top: 48rem;
+    left: -1.2rem;
+    width: 32rem;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    height: 80rem;
+  }
+
+  .Ou1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    left: -5rem;
+    top: 105.5;
+    gap: 2rem;
+  }
+  .Catg2 {
+    position: relative;
+    top: 6rem;
+    left: 0rem;
+  }
+
+  .Vitrine2 {
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    font-size: 2.3rem;
+  }
+
+  .Image {
+    height: 20rem;
+    width: 22rem;
+    margin: auto;
+    box-shadow: -3px 3px 10px 3px rgb(82, 82, 82);
+  }
+
+  .Vitrine {
+    font-size: 2.6rem;
+    position: relative;
+    left: 1.5rem;
+  }
+
+  .azin {
+    width: 71%;
+    margin: auto;
+  }
+
+  .tailleSlider {
+    height: 22rem;
+    width: 25rem;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+  }
+  .T-cus {
+    position: relative;
+    left: 0rem;
+    width: 103.4%;
+    height: 11rem;
+  }
+
+  .T-cus1 {
+    font-weight: bold;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    color: #fff;
+    position: relative;
+    left: -0.5rem;
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  .T-cus2 {
+    font-weight: bold;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    color: #fff;
+    position: relative;
+    top: -1.5rem;
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  .T-cus3 {
+    position: relative;
+    top: -3.3rem;
+    left: 0.8rem;
+  }
 }
