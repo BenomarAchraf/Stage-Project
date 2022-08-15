@@ -8,7 +8,7 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavbarComponents";
-
+import "@fontsource/poppins";
 import logo from "../Assets/Images/icon.svg";
 import logo1 from "../Assets/Images/LOGO1.svg";
 import "./Navbar.css";
@@ -27,7 +27,7 @@ const NavbarComponent = () => {
   };
 
   const showNavbar = () => {
-    if (window.scrollY > 80) {
+    if (window.scrollY > 60) {
       setNav(true);
     } else {
       setNav(false);
@@ -44,11 +44,11 @@ const NavbarComponent = () => {
     <div className="nav">
       <Nav className={nav && "activess"}>
         <NavLink to="/">
-          <img className="img" src={nav ? logo : logo1} alt="logo" />
+          <img className="img " src={nav ? logo : logo1} alt="logo" />
         </NavLink>
-        <Bars onClick={handleClick} />
+        <Bars className={click ? "bars" : "bars1"} onClick={handleClick} />
         <NavMenu>
-          <NavLink to="/Acceuil" activeStyle>
+          <NavLink to="/" activeStyle>
             Acceuil
           </NavLink>
           <NavLink to="/Services" activeStyle>
@@ -72,7 +72,7 @@ const NavbarComponent = () => {
             <ul className="nav-menu active">
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Home
+                  Acceuil
                 </Link>
               </li>
               <li className="nav-item">
@@ -86,20 +86,38 @@ const NavbarComponent = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/products"
+                  to="/Project"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  Project
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/Tarifs"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Tarifs
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/About-us"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  About-us
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/sign-up"
+                  to="/Contact-us"
                   className="nav-links-mobile"
                   onClick={closeMobileMenu}
                 >
-                  Sign Up
+                  <span className="spa">Contact-us</span>
                 </Link>
               </li>
             </ul>

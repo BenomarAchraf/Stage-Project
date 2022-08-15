@@ -82,30 +82,50 @@
 }
 
 @media screen and (max-width: 1122px) {
+  .Pres {
+    width: auto max-content;
+    position: relative;
+    top: -1rem;
+  }
   .h30 {
     position: relative;
-    left: 1.9rem;
-    font-size: 20px;
-    width: 10rem;
+    left: 0.7rem;
+    font-size: 17px;
+    width: 40%;
     top: 7rem;
   }
   .h31 {
     position: relative;
-    left: 3rem;
-    font-size: 50px;
-    width: 30rem;
+    left: 0.7rem;
+    font-size: 37px;
+    width: 40%;
     top: 6.5rem;
   }
   .h32 {
     position: relative;
-    font-size: 16px;
-    left: -0.5rem;
+    font-size: 12px;
+    left: -3%;
     top: 6.5rem;
-    width: 25rem;
+    width: 75%;
     margin: auto;
     text-align: center;
   }
+  .Click {
+    position: relative;
+    top: 9rem;
+    left: 30%;
+    margin: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
   .Alpha {
-    display: none;
+    position: absolute;
+    left: 42%;
+    width: 65%;
+    height: 41%;
+    top: 26%;
   }
 }

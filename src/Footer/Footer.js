@@ -42,7 +42,7 @@ const Footer = () => (
           <p>Contact-Us</p>
         </div>
         <div className="gpt3__footer-links_div">
-          <h4>Nous suivre</h4>
+          <h4 className="gtx">Nous suivre</h4>
           <div className="display">
             <Ai className="icon" />
 

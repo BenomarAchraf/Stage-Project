@@ -1,0 +1,134 @@
+.Services-P {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0 2rem;
+}
+.pos-P {
+  position: relative;
+  top: 8rem;
+  height: 70rem;
+}
+.Header3-P {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.Start-P {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  width: auto;
+  justify-content: center;
+}
+
+.Items-P {
+  display: flex;
+  gap: 1rem;
+}
+
+.Items-P1 {
+  margin: auto;
+  position: relative;
+  left: 10%;
+  display: flex;
+  gap: 2rem;
+  width: 85%;
+}
+.Item-P {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  width: 30%;
+
+  gap: 1rem;
+  padding: 2rem;
+  color: black;
+  justify-content: space-between;
+}
+.Item-P > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: blue;
+}
+.Item-P > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Item-P > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.plusinfos-P {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  color: blue;
+}
+.Item-P:hover {
+  background-color: cadetblue;
+}
+
+.cus-P {
+  background-color: rgba(9, 9, 121, 1);
+  position: relative;
+  left: -2rem;
+  width: 102.4%;
+  height: 9rem;
+}
+
+.cus1-P {
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  left: 2.6rem;
+  font-size: 19px;
+  width: 70rem;
+  font-family: "Poppins";
+}
+
+.cus2-P {
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  top: -1.5rem;
+  font-size: 19px;
+  width: 80rem;
+  font-family: "Poppins";
+}
+.cus3-P {
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #cacaca;
+  position: relative;
+  top: -4rem;
+  left: 34rem;
+  font-size: 21px;
+  width: 13.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.taille-P {
+  width: 4rem;
+  height: 2rem;
+  position: relative;
+  left: 0rem;
+}
+.taille-P:hover {
+  transform: translateX(20px);
+}

@@ -24,6 +24,33 @@ const Tarifs = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const dataa = {
@@ -46,7 +73,7 @@ const Tarifs = () => {
   const Next = (props) => {
     const { className, onClick } = props;
     return (
-      <div className={className} onClick={onClick}>
+      <div id="prev" className={className} onClick={onClick}>
         <FcNext
           style={{
             position: "relative",
@@ -63,7 +90,7 @@ const Tarifs = () => {
   const Prev = (props) => {
     const { className, onClick } = props;
     return (
-      <div className={className} onClick={onClick}>
+      <div id="prev" className={className} onClick={onClick}>
         <FcPrevious
           style={{
             position: "relative",

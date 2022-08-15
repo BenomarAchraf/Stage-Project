@@ -7,12 +7,12 @@ export const Pres = (dataa) => {
   const { img, header, texte } = dataa;
   return (
     <div className="Pres">
-      {img}
+      <span>{img}</span>
       <p className="h30">Smart-Snake Technology</p>
       <p className="h31">{header}</p>
       <p className="h32">{texte}</p>
       <Link to="/Projet" className="Click">
-        Join us now
+        <span>Join us now</span>
       </Link>
     </div>
   );

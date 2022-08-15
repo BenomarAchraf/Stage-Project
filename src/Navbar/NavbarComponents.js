@@ -36,11 +36,12 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1122px) {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
+
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     transition: all 0.3s linear;
@@ -63,7 +64,7 @@ export const NavMenu = styled.div`
   /* width: 100vw;
   white-space: nowrap; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1122px) {
     display: none;
   }
 `;
@@ -77,7 +78,7 @@ export const NavBtn = styled.nav`
   /* justify-content: flex-end;
   width: 100vw; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1122px) {
     display: none;
   }
 `;
@@ -93,7 +94,7 @@ export const Blockright = styled.nav`
   /* justify-content: flex-end;
   width: 100vw; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1122px) {
     display: none;
   }
 `;
@@ -109,7 +110,7 @@ export const Blockleft = styled.nav`
   /* justify-content: flex-end;
   width: 100vw; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1122px) {
     display: none;
   }
 `;
